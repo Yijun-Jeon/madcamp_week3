@@ -9,6 +9,11 @@ import Footer from './Footer';
 import Project from './Project';
 import Service from './Service';
 
+import SwipeableViews from "react-swipeable-views";
+import { bindKeyboard } from "react-swipeable-views-utils";
+
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -113,23 +118,52 @@ function Home() {
         </div>
       </div>
       </div>
-      {happy && <About/>}
-      {!happy && <Service/>}
-
-      {happy && <Service/>}
-      {!happy && <About/>}
-
-      {happy && <Project/>}
-      {!happy && <Project/>}
-
-      {happy && <Blog/>}
-      {!happy && <Blog/>}
       
-      {happy && <Contact/>}
-      {!happy && <Contact/>}
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <About/>
+        </div>
+        <div style={Object.assign({})}>
+          <About/>
+        </div>
+      </BindKeyboardSwipeableViews>
       
-      {happy && <Footer/>}
-      {happy && <Footer/>}
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Service/>
+        </div>
+        <div style={Object.assign({})}>
+          <Service/>
+        </div>
+      </BindKeyboardSwipeableViews>
+      
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Project/>
+        </div>
+        <div style={Object.assign({})}>
+          <Project/>
+        </div>
+      </BindKeyboardSwipeableViews>
+
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Blog/>
+        </div>
+        <div style={Object.assign({})}>
+          <Blog/>
+        </div>
+      </BindKeyboardSwipeableViews>
+
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Contact/>
+        </div>
+        <div style={Object.assign({})}>
+          <Contact/>
+        </div>
+      </BindKeyboardSwipeableViews>
+      <Footer/>
 
     </div>
   );
