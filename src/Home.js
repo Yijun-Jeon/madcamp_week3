@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import "./Home.css";
+import "./css/Home.css";
 import logo from "./img/logo.png";
 
 import About from './About';
@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Project from './Project';
 import Service from './Service';
+import AboutLee from "./AboutLee";
 
 import SwipeableViews from "react-swipeable-views";
 import { bindKeyboard } from "react-swipeable-views-utils";
