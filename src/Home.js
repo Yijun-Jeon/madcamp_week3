@@ -55,18 +55,23 @@ function Home() {
               <a href="#Contact">
                 <li className="nav__items mx__15">Constact</li>
               </a>
-
-              <a href="#" onClick={()=>{setHappy(true)}}>
+              {/* <a href="#" onClick={()=>{setHappy(true)}}>
                 <li className="nav__items mx__15">극락</li>
               </a>
               <a href="#" onClick={()=>{setHappy(false)}}>
                 <li className="nav__items mx__15">절망</li>
-              </a>
+              </a> */}
             </ul>
 
           </div>
           {/* Toggle Menu */}
           <div className="toggle__menu">
+            <a href="#" onClick={()=>{setHappy(true)}}>
+              <ul className="nav__items mx__15">극락</ul>
+            </a>
+            <a href="#" onClick={()=>{setHappy(false)}}>
+              <ul className="nav__items mx__15">절망</ul>
+            </a>
             <svg onClick={()=> setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
