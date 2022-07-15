@@ -12,12 +12,6 @@ function App() {
   return (
     <div className="App">
       <Home/>
-      <About/>
-      <Service/>
-      <Project/>
-      <Blog/>
-      <Contact/>
-      <Footer/>
     </div>
   );
 }
