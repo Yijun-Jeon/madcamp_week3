@@ -1,5 +1,5 @@
 import React from "react";
-import "./Service.css";
+import "./css/Service.css";
 
 function Service() {
   return (

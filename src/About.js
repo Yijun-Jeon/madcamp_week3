@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css";
-import aboutImg from "./img/about.jpg";
+import "./css/About.css";
+import aboutImg from "./img/junhello2.png";
 
 function About() {
 

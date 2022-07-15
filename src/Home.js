@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import "./Home.css";
+import "./css/Home.css";
 import logo from "./img/logo.png";
 
 import About from './About';
@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Project from './Project';
 import Service from './Service';
+import AboutLee from "./AboutLee";
 
 function Home() {
   // fixed Header
@@ -113,11 +114,11 @@ function Home() {
         </div>
       </div>
       </div>
-      {happy && <About/>}
-      {!happy && <Service/>}
+      {happy && <AboutLee/>}
+      {!happy && <About/>}
 
       {happy && <Service/>}
-      {!happy && <About/>}
+      {!happy && <Service/>}
 
       {happy && <Project/>}
       {!happy && <Project/>}
@@ -129,7 +130,7 @@ function Home() {
       {!happy && <Contact/>}
       
       {happy && <Footer/>}
-      {happy && <Footer/>}
+      {!happy && <Footer/>}
 
     </div>
   );
