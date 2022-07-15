@@ -1,3 +1,4 @@
+import React from 'react';
 import About from './About';
 import './App.css';
 import Blog from './Blog';

@@ -10,11 +10,12 @@ function Home() {
   });
 
   //Toggle Menu
-  const [show,setShow] = useState(true);
+  const [show,setShow] = useState(false);
 
   return (
     <div className="home" id="Home">
       <div className="home__bg">
+        <div className="home__img">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={logo} alt="" />
@@ -92,6 +93,7 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

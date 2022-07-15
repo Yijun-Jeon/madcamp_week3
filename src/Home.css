@@ -1,9 +1,21 @@
 .home__bg{
-    background-image: url(https://user-images.githubusercontent.com/89140546/179168152-bbca0761-3076-4756-ac12-124e8b384e7a.jpg);
-    background-color: #010101;
-    background-position: 50%;
+    background: linear-gradient(blue,pink);
+    background-image: url(./img/background.png);
+    background-image: linear-gradient(blue,pink);
+    /* background-size: 1000px ; */
+    background-color: linear-gradient(to right,blue,pink);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+}
+
+.home__img{
+    background-image: url(./img/background.png);
+    position: relative;
+    background-position: right 25% bottom;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+
 }
 
 li.nav__items{
@@ -99,4 +111,15 @@ li.sideNavbar{
    h4.home__text {
        font-size: 45px;
    }
+
+   .home__img{
+    background-image: url(./img/background.png);
+    position: relative;
+    background-position: right bottom;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+
+}
+
    }
