@@ -1,15 +1,26 @@
 .home__bg{
-    background: linear-gradient(blue,pink);
-    background-image: url(./img/background.png);
-    background-image: linear-gradient(blue,pink);
-    /* background-size: 1000px ; */
-    background-color: linear-gradient(to right,blue,pink);
+    background-image: url(./img/heaven.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+}
+
+.home__bg__sad{
+    background-image: url(./img/hell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home__img{
     background-image: url(./img/background.png);
+    position: relative;
+    background-position: right 25% bottom;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+
+}
+.home__img__sad{
+    background-image: url(./img/backgroundHell.png);
     position: relative;
     background-position: right 25% bottom;
     background-size: 1000px;
