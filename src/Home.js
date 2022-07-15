@@ -2,6 +2,13 @@ import React,{useState} from "react";
 import "./Home.css";
 import logo from "./img/logo.png";
 
+import About from './About';
+import Blog from './Blog';
+import Contact from './Contact';
+import Footer from './Footer';
+import Project from './Project';
+import Service from './Service';
+
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -12,10 +19,13 @@ function Home() {
   //Toggle Menu
   const [show,setShow] = useState(false);
 
+  // Tab
+  const [happy,setHappy] = useState(true);
+
   return (
     <div className="home" id="Home">
-      <div className="home__bg">
-        <div className="home__img">
+      <div className="{happy}? home__bg : home__bg__sad">
+        <div className="{happy}? home__img : home__img__sad">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={logo} alt="" />
@@ -40,7 +50,15 @@ function Home() {
               <a href="#Contact">
                 <li className="nav__items mx__15">Constact</li>
               </a>
+
+              <a href="#" onClick={()=>{setHappy(true)}}>
+                <li className="nav__items mx__15">극락</li>
+              </a>
+              <a href="#" onClick={()=>{setHappy(false)}}>
+                <li className="nav__items mx__15">절망</li>
+              </a>
             </ul>
+
           </div>
           {/* Toggle Menu */}
           <div className="toggle__menu">
@@ -95,6 +113,24 @@ function Home() {
         </div>
       </div>
       </div>
+      {happy && <About/>}
+      {!happy && <Service/>}
+
+      {happy && <Service/>}
+      {!happy && <About/>}
+
+      {happy && <Project/>}
+      {!happy && <Project/>}
+
+      {happy && <Blog/>}
+      {!happy && <Blog/>}
+      
+      {happy && <Contact/>}
+      {!happy && <Contact/>}
+      
+      {happy && <Footer/>}
+      {happy && <Footer/>}
+
     </div>
   );
 }
