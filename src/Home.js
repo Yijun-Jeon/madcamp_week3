@@ -11,11 +11,13 @@ function Home() {
 
   //Toggle Menu
   const [show,setShow] = useState(false);
+  const [happy,setHappy] = useState(false);
+  
 
   return (
     <div className="home" id="Home">
-      <div className="home__bg">
-        <div className="home__img">
+      <div className="happy? home__bg : home__bg__sad">
+        <div className="happy? home__img : home__img__sad">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={logo} alt="" />
