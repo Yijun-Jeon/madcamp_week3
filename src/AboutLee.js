@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/AboutLee.css";
-import aboutImg from "./img/leehello2.png";
+import "./css/About.css";
+import aboutImg from "./img/leehello.png";
 
 function About() {
 
@@ -18,34 +18,34 @@ function About() {
             <img src={aboutImg} alt="" className="about__img"></img>
           </div>
           <div className="col__2">
-            <h1 className="about__heading">About me</h1>
+            <h1 className="about__heading">이 영 준</h1>
             <div className="about__meta">
-              <p className="about__text p__color">
+              <p className="about__text p__text">
+                1998년 7월 25일 경기도 수원 출생
+              </p>
+              <p className="about__text p__text">
+                4세 ~ 9세: 인도네시아 유학
+              </p>
+              <p className="about__text p__text">
                 10대: 유복한 집안에서 성장 후 성균관대학교 논술 입학
               </p>
-              <p className="about__text p__color">
+              <p className="about__text p__text">
                 20대: 몰입캠프 수강 후 정보 선생님으로 진로 결정
-                <p className="about__text p__color">-25세: 서울 중등 임용 수석 선발</p>
-
-                  
               </p>
-              <p className="about__text p__color">
-                wiggle wiggle wiggle wiggle
-              </p>
-              <div className="about__button d__flex align__items__center">
+              {/* <div className="about__button d__flex align__items__center">
                 <a href="#">
                   <button className="about btn pointer">Download Cvc</button>
                 </a>
                 <a href="#">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
       {/* UP TO TOP BTN */}
-      <div className="up__to__top__btn">
+      {/* <div className="up__to__top__btn">
         <a href="#" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function About() {
           />
         </svg>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
