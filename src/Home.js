@@ -2,13 +2,38 @@ import React,{useState} from "react";
 import "./css/Home.css";
 import logo from "./img/logo.png";
 
-import About from './About';
-import Blog from './Blog';
-import Contact from './Contact';
+import AboutJeon from './AboutJeon';
+import AboutLee from './AboutLee';
+
+// Jeon - happy
+import Thirties_jeon_happy from './jeon-happy/Thirties_jeon_happy';
+import Forties_jeon_happy from './jeon-happy/Forties_jeon_happy';
+import Fifties_jeon_happy from './jeon-happy/Fifties_jeon_happy';
+import Sixties_jeon_happy from './jeon-happy/Sixties_jeon_happy';
+import Seventies_jeon_happy from './jeon-happy/Seventies_jeon_happy';
+
+// Jeon - sad
+import Thirties_jeon_sad from './jeon-sad/Thirties_jeon_sad';
+import Forties_jeon_sad from './jeon-sad/Forties_jeon_sad';
+import Fifties_jeon_sad from './jeon-sad/Fifties_jeon_sad';
+import Sixties_jeon_sad from './jeon-sad/Sixties_jeon_sad';
+import Seventies_jeon_sad from './jeon-sad/Seventies_jeon_sad';
+
+// Lee - happy
+import Thirties_lee_happy from './lee-happy/Thirties_lee_happy';
+import Forties_lee_happy from './lee-happy/Forties_lee_happy';
+import Fifties_lee_happy from './lee-happy/Fifties_lee_happy';
+import Sixties_lee_happy from './lee-happy/Sixties_lee_happy';
+import Seventies_lee_happy from './lee-happy/Seventies_lee_happy';
+
+// Lee - sad
+import Thirties_lee_sad from './lee-sad/Thirties_lee_sad';
+import Forties_lee_sad from './lee-sad/Forties_lee_sad';
+import Fifties_lee_sad from './lee-sad/Fifties_lee_sad';
+import Sixties_lee_sad from './lee-sad/Sixties_lee_sad';
+import Seventies_lee_sad from './lee-sad/Seventies_lee_sad';
+
 import Footer from './Footer';
-import Project from './Project';
-import Service from './Service';
-import AboutLee from "./AboutLee";
 
 import SwipeableViews from "react-swipeable-views";
 import { bindKeyboard } from "react-swipeable-views-utils";
@@ -118,94 +143,124 @@ function Home() {
         </div>
       </div>
       </div>
-      {happy?
+
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <About/>
+          <AboutJeon/>
         </div>
         <div style={Object.assign({})}>
-          <About/>
+          <AboutLee/>
         </div>
-      </BindKeyboardSwipeableViews> :
-      <BindKeyboardSwipeableViews enableMouseEvents>
-        <div style={Object.assign({})}>
-          <About/>
-        </div>
-        <div style={Object.assign({})}>
-          <About/>
-        </div>
-      </BindKeyboardSwipeableViews>}
+      </BindKeyboardSwipeableViews>
       
       
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Service/>
+          {/* 25~30대 happy - Jeon */}
+          <Thirties_jeon_happy/>
         </div>
         <div style={Object.assign({})}>
-          <Service/>
+          {/* 25~30대 happy - Lee */}
+          <Thirties_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> :
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Service/>
+          {/* 25~30대 sad - Jeon */}
+          <Thirties_jeon_sad/>
         </div>
         <div style={Object.assign({})}>
-          <Service/>
+          {/* 25~30대 sad - Lee */}
+          <Thirties_lee_sad/>
         </div>
       </BindKeyboardSwipeableViews>}
       
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Project/>
+          {/* 40대 happy - Jeon */}
+          <Forties_jeon_happy/>
         </div>
         <div style={Object.assign({})}>
-          <Project/>
+          {/* 40대 happy - Lee */}
+          <Forties_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> :
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Project/>
+          {/* 40대 sad - Jeon */}
+          <Forties_jeon_sad/>
         </div>
         <div style={Object.assign({})}>
-          <Project/>
+          {/* 40대 sad - Lee */}
+          <Forties_lee_sad/>
         </div>
       </BindKeyboardSwipeableViews>}
 
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Blog/>
+          {/* 50대 happy - Jeon */}
+          <Fifties_jeon_happy/>
         </div>
         <div style={Object.assign({})}>
-          <Blog/>
+          {/* 50대 happy - Lee */}
+          <Fifties_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> : 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Blog/>
+          {/* 50대 sad - Jeon */}
+          <Fifties_jeon_sad/>
         </div>
         <div style={Object.assign({})}>
-          <Blog/>
+          {/* 50대 sad - Lee */}
+          <Fifties_lee_sad/>
         </div>
       </BindKeyboardSwipeableViews>}
 
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Contact/>
+          {/* 60대 happy - Jeon */}
+          <Sixties_jeon_happy/>
         </div>
         <div style={Object.assign({})}>
-          <Contact/>
+          {/* 60대 happy - Lee */}
+          <Sixties_lee_happy/>
+        </div>
+      </BindKeyboardSwipeableViews> : 
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          {/* 60대 sad - Jeon */}
+          <Sixties_jeon_sad/>
+        </div>
+        <div style={Object.assign({})}>
+          {/* 60대 sad - Lee */}
+          <Sixties_lee_sad/>
+        </div>
+      </BindKeyboardSwipeableViews>}
+
+      {happy ? 
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          {/* 70대 happy - Jeon */}
+          <Seventies_jeon_happy/>
+        </div>
+        <div style={Object.assign({})}>
+          {/* 70대 happy - Lee */}
+          <Seventies_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> :
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
-          <Contact/>
+          {/* 70대 sad - Jeon */}
+          <Seventies_jeon_sad/>
         </div>
         <div style={Object.assign({})}>
-          <Contact/>
+          {/* 70대 sad - Lee */}
+          <Seventies_lee_sad/>
         </div>
       </BindKeyboardSwipeableViews>}
       <Footer/>
