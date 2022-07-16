@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Contact.css'
-import contactImg from '../img/about-9.jpg'
+import contactImg from '../img/portrait_lee.png'
 
 function Seventies_lee_sad() {
   return (
@@ -10,15 +10,17 @@ function Seventies_lee_sad() {
                 <div className="contact__box">
                     <div className="contact__meta">
                         <h1 className="hire__text">Pray for Me.</h1>
-                        <p className="hire__text white">I am very useless person. Connet with me via phone:</p>
-                        <p className="hire__text white"><strong>+123 45 6789</strong>or email<strong>gkqls813@gmail.com</strong></p>
+                        <p className="hire__text white">조의금 계좌번호</p>
+                        <p className="hire__text white"><strong>352-0202-1234-49</strong></p>
                     </div>
                     <div className="input__box">
-                        <input type="text" className="contact name" placeholder='Your name *'/>
-                        <input type="text" className="contact email" placeholder='Your Email *'/>
-                        <input type="text" className="contact subject" placeholder='Write a Subject'/>
-                        <textarea name="message" id="message" placeholder='Write Your message'></textarea>
-                        <button className="btn contact pointer" type="submit">Submit</button>
+                        <input type="text" className="contact name" placeholder='성함 *'/>
+                        <input type="text" className="contact email" placeholder='전화번호 *'/>
+                        <input type="text" className="contact subject" placeholder='관계'/>
+                        <textarea name="message" id="message" placeholder='메시지'></textarea>
+                        <button className="btn contact pointer" type="submit" onClick={()=>{
+                            window.open('https://www.kbstar.com/')
+                        }}>Donate</button>
                     </div>
                 </div>
             </div>
