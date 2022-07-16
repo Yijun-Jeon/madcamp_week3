@@ -56,12 +56,6 @@ function Home() {
               <a href="#Contact">
                 <li className="nav__items mx__15">Constact</li>
               </a>
-              {/* <a href="#" onClick={()=>{setHappy(true)}}>
-                <li className="nav__items mx__15">극락</li>
-              </a>
-              <a href="#" onClick={()=>{setHappy(false)}}>
-                <li className="nav__items mx__15">절망</li>
-              </a> */}
             </ul>
 
           </div>
@@ -124,7 +118,7 @@ function Home() {
         </div>
       </div>
       </div>
-      
+      {happy?
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           <About/>
@@ -132,8 +126,18 @@ function Home() {
         <div style={Object.assign({})}>
           <About/>
         </div>
-      </BindKeyboardSwipeableViews>
+      </BindKeyboardSwipeableViews> :
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <About/>
+        </div>
+        <div style={Object.assign({})}>
+          <About/>
+        </div>
+      </BindKeyboardSwipeableViews>}
       
+      
+      {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           <Service/>
@@ -141,8 +145,17 @@ function Home() {
         <div style={Object.assign({})}>
           <Service/>
         </div>
-      </BindKeyboardSwipeableViews>
+      </BindKeyboardSwipeableViews> :
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Service/>
+        </div>
+        <div style={Object.assign({})}>
+          <Service/>
+        </div>
+      </BindKeyboardSwipeableViews>}
       
+      {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           <Project/>
@@ -150,8 +163,17 @@ function Home() {
         <div style={Object.assign({})}>
           <Project/>
         </div>
-      </BindKeyboardSwipeableViews>
+      </BindKeyboardSwipeableViews> :
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Project/>
+        </div>
+        <div style={Object.assign({})}>
+          <Project/>
+        </div>
+      </BindKeyboardSwipeableViews>}
 
+      {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           <Blog/>
@@ -159,8 +181,17 @@ function Home() {
         <div style={Object.assign({})}>
           <Blog/>
         </div>
-      </BindKeyboardSwipeableViews>
+      </BindKeyboardSwipeableViews> : 
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Blog/>
+        </div>
+        <div style={Object.assign({})}>
+          <Blog/>
+        </div>
+      </BindKeyboardSwipeableViews>}
 
+      {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           <Contact/>
@@ -168,7 +199,15 @@ function Home() {
         <div style={Object.assign({})}>
           <Contact/>
         </div>
-      </BindKeyboardSwipeableViews>
+      </BindKeyboardSwipeableViews> :
+      <BindKeyboardSwipeableViews enableMouseEvents>
+        <div style={Object.assign({})}>
+          <Contact/>
+        </div>
+        <div style={Object.assign({})}>
+          <Contact/>
+        </div>
+      </BindKeyboardSwipeableViews>}
       <Footer/>
 
     </div>
