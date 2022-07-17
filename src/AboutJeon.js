@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/About.css";
-import aboutImg from "./img/leehello.png";
+import aboutImg from "./img/junhello.png";
 
 function About() {
 
@@ -18,19 +18,19 @@ function About() {
             <img src={aboutImg} alt="" className="about__img"></img>
           </div>
           <div className="col__2">
-            <h1 className="about__heading">이 영 준</h1>
+            <h1 className="about__heading">전 이 준</h1>
             <div className="about__meta">
               <p className="about__text p__text">
-                1998년 7월 25일 경기도 수원 출생
+                1998년 8월 13일 경상북도 구미시 출생
               </p>
               <p className="about__text p__text">
-                4세 ~ 9세: 인도네시아 유학
+              10대: 화목한 가정에서 성장하여 성균관대학교 글로벌 경영학과에 입학
               </p>
               <p className="about__text p__text">
-                10대: 유복한 집안에서 성장 후 성균관대학교 논술 입학
+              20대: 경영에 흥미를 잃고 소프트웨어 복수전공을 시작
               </p>
               <p className="about__text p__text">
-                20대: 몰입캠프 수강 후 정보 선생님으로 진로 결정
+              25세: 몰입캠프 수강 중 벽을 느껴서 경영에 매진하기로 결심
               </p>
               {/* <div className="about__button d__flex align__items__center">
                 <a href="#">

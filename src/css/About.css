@@ -9,8 +9,8 @@ h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
-    font-family: Montserrat,sans-serif;
-    font-size: 60px;
+    font-family: 궁서,sans-serif;
+    font-size: 80px;
 }
 button.about.btn.pointer{
     text-transform: capitalize;
@@ -19,9 +19,19 @@ button.about.btn.pointer{
     font-size: 18px;
     transition: .4s ease;
 }
+.about__meta{
+    margin-top: 13%;
+}
 .about__button{
     padding: 20px 0px;
 }
+.p__text {
+    color: rgba(198,201,216,1);
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 궁서,sans-serif;
+    margin-bottom: 25px;
+  }
 a.bottom__to__top{
     height: 40px;
     width: 40px;
@@ -56,3 +66,8 @@ a.bottom__to__top.active{
     }
 }
 
+
+.p__color{
+    font-size: 15px!important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
