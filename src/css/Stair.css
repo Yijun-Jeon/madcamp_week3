@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+.stair__background {
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .stair {
+    float: right;
+    display: flex;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    box-sizing: border-box;
+    background: #000;
+    justify-content: space-between;
+  }
+  
+  .stair .bollup img{
+    display: inline-block;
+    width: 15%;
+    /* background: linear-gradient(10deg, #0d1e30, #fff);
+    border-bottom: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff; */
+    position: absolute;
+    transition: 0.5s;
+    -webkit-animation: bounceBollup 4s ease-in-out infinite;
+    -o-animation: bounceBollup 4s ease-in-out infinite;
+    animation: bounceBollup 4s ease-in-out infinite;
+  }
+  
+  .stair .pipeup {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    border-radius: 10% 10% 0% 0%; 
+    background: linear-gradient(10deg, #35D6ED, #fff);
+    margin-left: 2%;
+    margin-right: 2%;
+    /* margin-left: 1px;
+      margin-right: 1px; */
+    transform: scaleY(0.2);
+    transform-origin: bottom;
+    transition: 0.5s;
+    box-shadow: 1px 2px 2px #fff;
+  
+  }
+
+.stair .pipeup:nth-child(2) {
+  -webkit-animation: changeHeight2up 4s linear infinite;
+  -o-animation: changeHeight2up 4s linear infinite;
+  animation: changeHeight2up 4s linear infinite;
+}
+
+.stair .pipeup:nth-child(3) {
+  -webkit-animation: changeHeight3up 4s linear infinite;
+  -o-animation: changeHeight3up 4s linear infinite;
+  animation: changeHeight3up 4s linear infinite;
+}
+
+.stair .pipeup:nth-child(4) {
+  -webkit-animation: changeHeight4up 4s linear infinite;
+  -o-animation: changeHeight4up 4s linear infinite;
+  animation: changeHeight4up 4s linear infinite;
+}
+
+.stair .pipeup:nth-child(5) {
+  -webkit-animation: changeHeight5up 4s linear infinite;
+  -o-animation: changeHeight5up 4s linear infinite;
+  animation: changeHeight5up 4s linear infinite;
+}
+
+.stair .pipeup:nth-child(6) {
+    -webkit-animation: changeHeight6up 4s linear infinite;
+    -o-animation: changeHeight6up 4s linear infinite;
+    animation: changeHeight6up 4s linear infinite;
+  }
+  
+
+@keyframes changeHeight3up {
+  0% {
+    transform: scaleY(0.2);
+  }
+  20% {
+    transform: scaleY(0.2);
+  }
+
+  22% {
+    transform: scaleY(0.35);
+  }
+  100% {
+    transform: scaleY(0.35);
+  }
+}
+
+@keyframes changeHeight4up {
+  0% {
+    transform: scaleY(0.2);
+  }
+  40% {
+    transform: scaleY(0.2);
+  }
+  44% {
+    transform: scaleY(0.5);
+  }
+  100% {
+    transform: scaleY(0.5);
+  }
+}
+
+@keyframes changeHeight5up {
+    0% {
+      transform: scaleY(0.2);
+    }
+    62% {
+      transform: scaleY(0.2);
+    }
+    66% {
+      transform: scaleY(0.65);
+    }
+    100% {
+      transform: scaleY(0.65);
+    }
+  }
+
+  @keyframes changeHeight6up {
+    0% {
+      transform: scaleY(0.2);
+    }
+    84% {
+      transform: scaleY(0.2);
+    }
+    88% {
+      transform: scaleY(0.80);
+    }
+    100% {
+      transform: scaleY(0.80);
+    }
+  }
+  
+
+@keyframes bounceBollup {
+  0% {
+    bottom: 40%;
+    left: 5%;
+  }
+
+  11% {
+    
+    bottom: 20%;
+    left: 5%;
+  }
+
+  22% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    bottom: 55%;
+    left: 23%;
+  }
+
+  33% {
+    bottom: 35%;
+    left: 23%;
+  }
+
+  44% {
+    bottom: 70%;
+    left: 43%;
+  }
+
+  55% {
+    bottom: 50%;
+    left: 43%;
+  }
+
+  66% {
+    bottom: 85%;
+    left: 63%;
+  }
+
+  77% {
+    bottom: 65%;
+    left: 63%;
+  }
+
+  88% {
+    bottom: 90%;
+    left: 83%;
+  }
+
+  100% {
+    bottom: 80%;
+    left: 83;
+  }
+}
+
+
+.stairletters1{
+    position: absolute;
+    left: 7%;
+    bottom: 0%;
+    font-size: 3vw;
+    color:black;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+.stairletters2{
+    position: absolute;
+    left: 27%;
+    bottom: 0%;
+    font-size: 3vw;
+    color:black;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+.stairletters3{
+    position: absolute;
+    left: 47%;
+    bottom: 0%;
+    font-size: 3vw;
+    color:black;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+.stairletters4{
+    position: absolute;
+    left: 67%;
+    bottom: 0%;
+    font-size: 3vw;
+    color:black;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+.stairletters5{
+    position: absolute;
+    left: 87%;
+    bottom: 0%;
+    font-size: 3vw;
+    color:black;
+    justify-content:end;
+    align-items:flex-end;
+}
