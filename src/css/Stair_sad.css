@@ -21,13 +21,15 @@
 }
 
 .explaining__par{
-  padding: 10%;
+  padding: 5%;
 
 }
 
 .explaining__par p{
   font-family: 궁서;
+  font-size: 23px;
   font-weight: 300;
+  padding: 1%;
   line-height:200%
 }
 
