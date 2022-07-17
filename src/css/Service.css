@@ -5,6 +5,10 @@ h1.heading{
     font-weight: 700;
     margin-bottom: 10px;
 }
+.ability__img{
+    width: 50px;
+    height: 100%;
+}
 p.heading.p__color{
     margin-bottom: 0;
     text-align: center;

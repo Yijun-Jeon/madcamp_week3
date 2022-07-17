@@ -76,6 +76,10 @@ p{
   align-items: flex-start;
   justify-content: center;
 }
+.col__1 {
+  justify-content: center;
+  flex-direction: column;
+}
 .col__2 {
   max-width: 50%;
   display: flex;
@@ -86,7 +90,7 @@ p{
 .col__3{
   max-width: 33.333333%;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   justify-content: center;
   flex-direction: column;
   margin-top: 20px;
