@@ -13,20 +13,29 @@
   margin-right: 10%;
   background-color: #191919;
   border-radius: 10%;
-  height: 50%;
-  width: 30%;
+  height: 85%;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .explaining__par{
   padding: 10%;
+
+}
+
+.explaining__par p{
+  font-family: 궁서;
+  font-weight: 300;
+  line-height:200%
 }
 
 .stair {
   float: right;
   display: flex;
   width: 40%;
-  height: 80%;
+  height: 100%;
   position: relative;
   box-sizing: border-box;
   background: #000;
@@ -54,7 +63,7 @@
   width: 20%;
   height: 100%;
   border-radius: 10% 10% 0% 0%; 
-  background: linear-gradient(10deg, #35D6ED, #fff);
+  background: linear-gradient(10deg, black, red);
   margin-left: 2%;
   margin-right: 2%;
   /* margin-left: 1px;

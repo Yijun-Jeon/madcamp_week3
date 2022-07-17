@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Blog.css';
+import '../css/Project.css';
 import Blog1 from '../img/blog-01.jpg';
 import Blog2 from '../img/blog-02.jpg';
 import Blog3 from '../img/blog-03.jpg';

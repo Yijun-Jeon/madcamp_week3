@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Stair_sad.css";
-import leeSmileImg from "../img/leesmile.png";
+import leeCryImg from "../img/leecry2.png";
 
 function Stair_lee_sad() {
   return (
@@ -14,7 +14,7 @@ function Stair_lee_sad() {
 <div className="stair__background">
         <div className="stair">
           <span className="boll">
-            <img src={leeSmileImg}></img>
+            <img src={leeCryImg}></img>
           </span>
           <span className="pipe"></span>
           <span className="pipe"></span>

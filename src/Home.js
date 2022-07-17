@@ -4,6 +4,7 @@ import logo from "./img/logo.png";
 
 import AboutJeon from './AboutJeon';
 import AboutLee from './AboutLee';
+// import If from './If';
 
 // Jeon - happy
 import Forties_jeon_happy from './jeon-happy/Forties_jeon_happy';
@@ -54,6 +55,7 @@ function Home() {
   const [happy,setHappy] = useState(true);
 
   return (
+    
     <div className="home" id="Home">
       <div className={happy? 'home__bg' : 'home__bg__sad'}>
         <div className={happy? 'home__img' : 'home__img__sad'}>
