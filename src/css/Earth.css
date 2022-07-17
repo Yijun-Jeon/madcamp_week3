@@ -1,0 +1,105 @@
+.sixties_happy{
+    margin: 0;
+    padding: 0;
+}
+
+body.sixties__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+
+    overflow: hidden;
+}
+
+.earth__container{
+    width: 30em;
+    height: 30em;
+    position: relative;
+    background: #0588e4 url('../img/bg.png');
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: inset 0 0 3em;
+    transition: all .5s ease;
+    animation: animate 12s linear infinite;
+    z-index: 2;
+}
+
+@keyframes animate
+{
+    0%{
+        background-position: 0 0 ;
+    }
+
+    100%{
+        background-position:80em 0 ;
+    }
+}
+
+
+
+
+.starlight i {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white,
+        0 0 20px white,
+        0 0 30px white,
+        0 0 40px white,
+        0 0 50px white;
+
+    animation: starsanimation 2s linear infinite;
+}
+
+@keyframes starsanimation {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.plane img{
+    position: absolute;
+    top:30%;
+    right: 10%;
+    width: 20%;
+    -webkit-animation: planeGo 4s ease-in-out infinite;
+    -o-animation: planeGo 4s ease-in-out infinite;
+    animation: planeGo 4s ease-in-out infinite;
+}
+
+@keyframes planeGo {
+    0% {
+      left: 10%;
+      top: 45%;
+      z-index: 1000;
+    }
+
+    50%{
+        left: 70%;
+        top: 45%;
+
+        z-index: 0;
+    }
+
+    100% {
+      left: 10%;
+      top: 45%;
+
+    }
+  }
+  
+
