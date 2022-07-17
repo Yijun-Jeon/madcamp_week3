@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Blog.css';
-import Blog1 from '../img/blog-01.jpg';
+import Blog1 from '../img/prison_jeon.png';
 import Blog2 from '../img/blog-02.jpg';
 import Blog3 from '../img/blog-03.jpg';
 
@@ -8,7 +8,7 @@ function Fifties_jeon_sad() {
   return (
     <div className='blog component__space' id='50s'>
         <div className="heading">
-            <h1 className="heading">Latest News</h1>
+            <h1 className="heading">50대</h1>
             <p className="heading p__color">I didn't nothing</p>
             <p className="heading p__color">I didn't nothing</p>
         </div>
