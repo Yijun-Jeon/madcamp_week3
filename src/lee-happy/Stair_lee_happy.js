@@ -1,8 +1,8 @@
 import React from "react";
-import "./css/Stair.css";
-import leeSmileImg from "./img/leesmile.png";
+import "../css/Stair.css";
+import leeSmileImg from "../img/leesmile.png";
 
-function Stair_lee() {
+function Stair_lee_happy() {
   return (
     <div className='component__space' id='Stair'>
       <div className="heading">
@@ -42,4 +42,4 @@ function Stair_lee() {
   );
 }
 
-export default Stair_lee;
+export default Stair_lee_happy;

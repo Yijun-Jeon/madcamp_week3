@@ -6,32 +6,32 @@ import AboutJeon from './AboutJeon';
 import AboutLee from './AboutLee';
 
 // Jeon - happy
-import Thirties_jeon_happy from './jeon-happy/Thirties_jeon_happy';
 import Forties_jeon_happy from './jeon-happy/Forties_jeon_happy';
 import Fifties_jeon_happy from './jeon-happy/Fifties_jeon_happy';
 import Sixties_jeon_happy from './jeon-happy/Sixties_jeon_happy';
 import Seventies_jeon_happy from './jeon-happy/Seventies_jeon_happy';
+import Stair_jeon_happy from './jeon-happy/Stair_jeon_happy';
 
 // Jeon - sad
-import Thirties_jeon_sad from './jeon-sad/Thirties_jeon_sad';
 import Forties_jeon_sad from './jeon-sad/Forties_jeon_sad';
 import Fifties_jeon_sad from './jeon-sad/Fifties_jeon_sad';
 import Sixties_jeon_sad from './jeon-sad/Sixties_jeon_sad';
 import Seventies_jeon_sad from './jeon-sad/Seventies_jeon_sad';
+import Stair_jeon_sad from './jeon-sad/Stair_jeon_sad';
 
 // Lee - happy
-import Thirties_lee_happy from './lee-happy/Thirties_lee_happy';
 import Forties_lee_happy from './lee-happy/Forties_lee_happy';
 import Fifties_lee_happy from './lee-happy/Fifties_lee_happy';
 import Sixties_lee_happy from './lee-happy/Sixties_lee_happy';
 import Seventies_lee_happy from './lee-happy/Seventies_lee_happy';
+import Stair_lee_happy from './lee-happy/Stair_lee_happy';
 
 // Lee - sad
-import Thirties_lee_sad from './lee-sad/Thirties_lee_sad';
 import Forties_lee_sad from './lee-sad/Forties_lee_sad';
 import Fifties_lee_sad from './lee-sad/Fifties_lee_sad';
 import Sixties_lee_sad from './lee-sad/Sixties_lee_sad';
 import Seventies_lee_sad from './lee-sad/Seventies_lee_sad';
+import Stair_lee_sad from './lee-sad/Stair_lee_sad';
 
 import Footer from './Footer';
 
@@ -158,21 +158,21 @@ function Home() {
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           {/* 25~30대 happy - Jeon */}
-          <Thirties_jeon_happy/>
+          <Stair_jeon_happy/>
         </div>
         <div style={Object.assign({})}>
           {/* 25~30대 happy - Lee */}
-          <Thirties_lee_happy/>
+          <Stair_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> :
       <BindKeyboardSwipeableViews enableMouseEvents>
         <div style={Object.assign({})}>
           {/* 25~30대 sad - Jeon */}
-          <Thirties_jeon_sad/>
+          <Stair_jeon_sad/>
         </div>
         <div style={Object.assign({})}>
           {/* 25~30대 sad - Lee */}
-          <Thirties_lee_sad/>
+          <Stair_lee_sad/>
         </div>
       </BindKeyboardSwipeableViews>}
       

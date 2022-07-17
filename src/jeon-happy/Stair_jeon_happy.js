@@ -1,8 +1,8 @@
 import React from "react";
-import "./css/Stair.css";
-import junSmileImg from "./img/junsmile.png";
+import "../css/Stair.css";
+import junSmileImg from "../img/junsmile.png";
 
-function Stair() {
+function Stair_jeon_happy() {
   return (
     <div className='component__space' id='Stair'>
       <div className="heading">
@@ -42,4 +42,4 @@ function Stair() {
   );
 }
 
-export default Stair;
+export default Stair_jeon_happy;

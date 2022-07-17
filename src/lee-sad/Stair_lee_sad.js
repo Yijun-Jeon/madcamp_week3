@@ -1,8 +1,8 @@
 import React from "react";
-import "./css/Stair_sad.css";
-import junSmileImg from "./img/junsmile.png";
+import "../css/Stair_sad.css";
+import leeSmileImg from "../img/leesmile.png";
 
-function Stair_sad() {
+function Stair_lee_sad() {
   return (
     <div className='component__space' id='Stair'>
       <div className="heading">
@@ -12,17 +12,9 @@ function Stair_sad() {
         </div>
 
 <div className="stair__background">
-  <div className="stair__explain">
-    <div className="explaining__par">
-    <p>fsdfsdfsdfffffffffffffffff</p>
-    <p>dfffffffffffffffffffffffff</p>
-    <p>fffffffffffffffffffffffff</p>
-    <p>fffffffffffffffff</p>
-    </div>
-  </div>
         <div className="stair">
           <span className="boll">
-            <img src={junSmileImg}></img>
+            <img src={leeSmileImg}></img>
           </span>
           <span className="pipe"></span>
           <span className="pipe"></span>
@@ -42,4 +34,4 @@ function Stair_sad() {
   );
 }
 
-export default Stair_sad;
+export default Stair_lee_sad;
