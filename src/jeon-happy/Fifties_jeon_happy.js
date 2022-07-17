@@ -59,7 +59,9 @@ function Fifties_jeon_happy() {
                         <div className="Blog__meta absolute">
                             <h5 className="project__text">Development</h5>
                             <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a className="blog project__btn btn">Read More</a>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open('https://www.creativosonline.org/ko/portadas-de-libros.html')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
