@@ -1,16 +1,14 @@
 import React from 'react';
 import '../css/Blog.css';
-import Blog1 from '../img/blog-01.jpg';
-import Blog2 from '../img/blog-02.jpg';
-import Blog3 from '../img/blog-03.jpg';
+import Blog3 from '../img/school.jpg';
+import Blog2 from '../img/booja.jpg';
+import Blog1 from '../img/teacher.PNG';
 
 function Fifties_lee_happy() {
   return (
     <div className='blog component__space' id='50s'>
         <div className="heading">
             <h1 className="heading">50대</h1>
-            <p className="heading p__color">I didn't nothing</p>
-            <p className="heading p__color">I didn't nothing</p>
         </div>
         <div className="container">
             <div className="row">
@@ -25,7 +23,9 @@ function Fifties_lee_happy() {
                         <div className="Blog__meta absolute">
                             <h5 className="project__text">Development</h5>
                             <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open('https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=1mokiss&logNo=221766520972')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,9 @@ function Fifties_lee_happy() {
                         <div className="Blog__meta absolute">
                             <h5 className="project__text">Development</h5>
                             <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open('https://www.instiz.net/pt/6908333')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +59,9 @@ function Fifties_lee_happy() {
                         <div className="Blog__meta absolute">
                             <h5 className="project__text">Development</h5>
                             <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open('http://jtntv.kr/mission_news/257578')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
