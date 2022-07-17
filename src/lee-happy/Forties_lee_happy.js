@@ -3,7 +3,7 @@ import "../css/Service.css";
 
 function Forties_lee_happy() {
   return (
-    <div className="service component__space" id="Services">
+    <div className="service component__space" id="40s">
 
       <div className="heading">
         <h1 className="heading">My Awesome Service</h1>

@@ -69,17 +69,20 @@ function Home() {
               <a href="#About">
                 <li className="nav__items mx__15">About</li>
               </a>
-              <a href="#Services">
-                <li className="nav__items mx__15">Services</li>
+              <a href="#Stair">
+                <li className="nav__items mx__15">25~30대</li>
               </a>
-              <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
+              <a href="#40s">
+                <li className="nav__items mx__15">40대</li>
               </a>
-              <a href="#Blog">
-                <li className="nav__items mx__15">Blog</li>
+              <a href="#50s">
+                <li className="nav__items mx__15">50대</li>
               </a>
-              <a href="#Contact">
-                <li className="nav__items mx__15">Constact</li>
+              <a href="#60s">
+                <li className="nav__items mx__15">60대</li>
+              </a>
+              <a href="#70s">
+                <li className="nav__items mx__15">70대</li>
               </a>
             </ul>
 
@@ -116,16 +119,19 @@ function Home() {
                         <a href="#About">About</a>
                     </li>
                     <li className="sideNavbar">
-                        <a href="#Services">Services</a>
+                        <a href="#Stair">25~30대</a>
                     </li>
                     <li className="sideNavbar">
-                        <a href="#Portfolio">Portfolio</a>
+                        <a href="#40s">40대</a>
                     </li>
                     <li className="sideNavbar">
-                        <a href="#Blog">Blog</a>
+                        <a href="#50s">50대</a>
                     </li>
                     <li className="sideNavbar">
-                        <a href="#Contact">Contact</a>
+                        <a href="#60s">60대</a>
+                    </li>
+                    <li className="sideNavbar">
+                        <a href="#70s">70대</a>
                     </li>
                 </ul>
             </div>) : null}

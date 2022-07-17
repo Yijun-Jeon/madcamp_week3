@@ -6,7 +6,7 @@ import Blog3 from '../img/blog-03.jpg';
 
 function Fifties_jeon_sad() {
   return (
-    <div className='blog component__space' id='Blog'>
+    <div className='blog component__space' id='50s'>
         <div className="heading">
             <h1 className="heading">Latest News</h1>
             <p className="heading p__color">I didn't nothing</p>

@@ -4,7 +4,7 @@ import contactImg from '../img/portrait_jeon.png'
 
 function Seventies_jeon_sad() {
   return (
-    <div className='contact component__space' id="Contact">
+    <div className='contact component__space' id="70s">
         <div className="row">
             <div className="col__2">
                 <div className="contact__box">
