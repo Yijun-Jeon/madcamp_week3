@@ -6,7 +6,7 @@ function Stair_jeon_happy() {
   return (
     <div className='component__space' id='Stair'>
       <div className="heading">
-            <h1 className="heading">Life from 25 to 30s</h1>
+            <h1 className="heading">Life from 25 to 30대</h1>
         </div>
     <div className="stair__background">
       <div className="stair__explain">

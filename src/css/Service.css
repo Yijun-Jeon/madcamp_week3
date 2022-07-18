@@ -1,7 +1,7 @@
 h1.heading{
     font-size: 60px;
     text-align: center;
-    font-family: Poppins,sans-serif;
+    font-family: 궁서,sans-serif;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -42,11 +42,14 @@ p.heading.p__color{
 }
 p.service__text.p__color{
     margin-bottom: 0;
+    font-family: 궁서;
+    font-size: 21px !important;
 }
 h1.service__text{
-    font-size: 19px;
-    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-family: 궁서, sans-serif;
     padding: 10px 0px;
+    margin-bottom: 3%;
 }
 /* RESPONSIZE */
 @media only screen and (max-width: 1024px){
