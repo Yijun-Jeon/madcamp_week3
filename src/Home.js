@@ -39,8 +39,11 @@ import Footer from './Footer';
 
 import SwipeableViews from "react-swipeable-views";
 import { bindKeyboard } from "react-swipeable-views-utils";
+import iffy from './sound/iffy.mp3'
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+
+var audio = new Audio(iffy);
 
 function Home() {
   // fixed Header
@@ -56,13 +59,14 @@ function Home() {
   const [happy,setHappy] = useState(true);
 
   return (
-    
     <div className="home" id="Home">
       <div className={happy? 'home__bg' : 'home__bg__sad'}>
         <div className={happy? 'home__img' : 'home__img__sad'}>
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={happy? whiteLogo : logo} alt="" width={70}/>
+            <img src={happy? whiteLogo : logo} alt="" width={70} onClick={()=>{
+              audio.pause();
+            }} onDoubleClick={()=>{audio.play();}}/>
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">

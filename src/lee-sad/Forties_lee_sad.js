@@ -26,7 +26,7 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">돈</h1>
-                  <p className="p service__text p__color">몰입캠프 프로젝트로 출시된</p>
+                  <p className="p service__text p__color">태찬 ,병현 ,하욱 조의</p>
                   <p className="p service__text p__color">주식투자 알고리즘 사용</p>
                   <p className="p service__text p__color">전 재산 투자 후 탕진</p>
                 </div>
