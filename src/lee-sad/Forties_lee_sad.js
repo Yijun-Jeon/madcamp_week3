@@ -19,7 +19,7 @@ function Forties_lee_sad() {
       <div className="container">
         <div className="col__1">
           <div className="row">
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                 <img src={moneyImg} alt="" className="ability__img"></img>
@@ -33,7 +33,7 @@ function Forties_lee_sad() {
               </div>
             </div>
 
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                 <img src={peopleImg} alt="" className="ability__img"></img>
@@ -48,7 +48,7 @@ function Forties_lee_sad() {
             </div>
 
             
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                 <img src={statusImg} alt="" className="ability__img"></img>
@@ -66,7 +66,7 @@ function Forties_lee_sad() {
 
         <div className="col__1">
           <div className="row">
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                   <img src={mindImg} alt="" className="ability__img"></img>
@@ -80,7 +80,7 @@ function Forties_lee_sad() {
               </div>
             </div>
 
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                   <img src={healthImg} alt="" className="ability__img"></img>
@@ -94,7 +94,7 @@ function Forties_lee_sad() {
               </div>
             </div>
 
-            <div className="col__3">
+            <div className="col__3__40">
               <div className="service__box pointer">
                 <div className="icon">
                   <img src={dreamImg} alt="" className="ability__img"></img>

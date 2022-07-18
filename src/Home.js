@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "./css/Home.css";
-import logo from "./img/logo.png";
+import logo from "./img/moliplogo_black.png";
+import whiteLogo from "./img/moliplogo_white2.png";
 
 import AboutJeon from './AboutJeon';
 import AboutLee from './AboutLee';
@@ -61,7 +62,7 @@ function Home() {
         <div className={happy? 'home__img' : 'home__img__sad'}>
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={happy? whiteLogo : logo} alt="" width={70}/>
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">

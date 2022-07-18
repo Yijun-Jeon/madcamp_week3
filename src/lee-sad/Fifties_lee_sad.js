@@ -24,8 +24,8 @@ function Fifties_lee_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
+                            <h5 className="project__text" style={{color:'black' ,fontWeight:'bold'}}>52세</h5>
+                            <h4 className="project__text" style={{color:'black' ,fontWeight:'bold'}}>극심한 생활고로 인해 학부모로부터 금품 수수</h4>
                             <a onClick = {()=>{
                                 window.open("https://m.hani.co.kr/arti/area/capital/1043225.html")
                             }}className="blog project__btn btn">Read More</a>
@@ -44,8 +44,8 @@ function Fifties_lee_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
+                            <h5 className="project__text" style={{fontWeight:'bold'}}>53세</h5>
+                            <h4 className="project__text">교사직 박탈 및 교도소 구금</h4>
                             <a onClick = {()=>{
                                 window.open("https://www.123rf.com/photo_179582359_prisoner-with-mugshot-letter-board-at-police-department.html?vti=nklnzwkvfu0ethg3uy-1-5")
                             }} className="blog project__btn btn">Read More</a>
@@ -64,8 +64,8 @@ function Fifties_lee_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
+                            <h5 className="project__text" style={{fontWeight:'bold'}}>56세</h5>
+                            <h4 className="project__text" >수형자 폭행으로 형량 증가</h4>
                             <a onClick = {()=>{
                                 window.open("https://m.blog.naver.com/palette25/221855532035")
                             }} className="blog project__btn btn">Read More</a>

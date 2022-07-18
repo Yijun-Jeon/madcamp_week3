@@ -1,5 +1,5 @@
 import React from 'react';
-import footerImg from './img/logo (1).png';
+import footerImg from './img/moliplogo_black.png';
 
 function Footer() {
   return (
