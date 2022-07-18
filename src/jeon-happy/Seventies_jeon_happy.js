@@ -14,10 +14,10 @@ function Seventies_jeon_happy() {
                     <p className="hire__text white"><strong>+010-6550-0083</strong> or github <strong>https://github.com/Yijun-Jeon</strong></p>
                 </div>
                 <div className="input__box">
-                    <input type="text" className="contact name" placeholder='이름 *'/>
-                    <input type="text" className="contact email" placeholder='전화번호 *'/>
-                    <input type="text" className="contact subject" placeholder='상담주제'/>
-                    <textarea name="message" id="message" placeholder='메시지'></textarea>
+                    <input type="text" className="contact name" placeholder='이름'/>
+                    <input type="text" className="contact email" placeholder='카드번호'/>
+                    <input type="text" className="contact subject" placeholder='cvc 3자리'/>
+                    <textarea name="message" id="message" placeholder='비밀번호'></textarea>
                     <button className="btn contact pointer" type="submit" onClick={()=>{
                         window.open('https://github.com/Yijun-Jeon')
                     }}>Contact</button>

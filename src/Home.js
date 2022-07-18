@@ -65,23 +65,25 @@ function Home() {
   const [next, setNext] = useState(false);
 
   useEffect(()=>{
-    if(play && !next){
-      audio_if.pause();
-      audio_iffy.play();
-    }else if(play && next){
-      audio_iffy.pause();
-      audio_if.play();
-    }else{
-      audio_iffy.pause();
-      audio_if.pause();
+    if(happy){
+      if(play && !next){
+        audio_if.pause();
+        audio_iffy.play();
+      }else if(play && next){
+        audio_iffy.pause();
+        audio_if.play();
+      }else{
+        audio_iffy.pause();
+        audio_if.pause();
+      }
     }
   },[play,next])
 
   return (
     <div className="home" id="Home">
-      <div className={happy? 'home__bg' : 'home__bg__sad'}>
-        <div className={happy? 'home__img' : 'home__img__sad'} onClick={()=>{
+      <div className={happy? 'home__bg' : 'home__bg__sad'} onClick={()=>{
           setPlay(!play)}} onDoubleClick={()=>{setNext(!next)}}>
+        <div className={happy? 'home__img' : 'home__img__sad'} >
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={happy? whiteLogo : logo} alt="" width={70}/>
