@@ -6,7 +6,7 @@ import Blog3 from '../img/solo.jpg';
 
 function Fifties_jeon_sad() {
   return (
-    <div className='blog component__space' id='50s'>
+    <div className='blog component__space' id='fifties'>
         <div className="heading">
             <h1 className="heading">50대</h1>
             <p className="heading p__color">10년만에 출소하였으나</p>

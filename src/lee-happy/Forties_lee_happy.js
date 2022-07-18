@@ -27,9 +27,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">돈</h1>
-                  <p className="p service__text p__color">22년 몰입캠프 프로젝트로 출시된</p>
-                  <p className="p service__text p__color">주식투자 알고리즘을 통하여</p>
-                  <p className="p service__text p__color">전재산 투자 후 탕진</p>
+                  <p className="p service__text p__color">대성 마이맥</p>
+                  <p className="p service__text p__color">정보 강사 부문</p>
+                  <p className="p service__text p__color">1타 등극</p>
                 </div>
               </div>
             </div>
@@ -41,9 +41,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">사람</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">스승의 날마다 찾아오는</p>
+                  <p className="p service__text p__color">전국의 학생들로 인하여</p>
+                  <p className="p service__text p__color">카네이션 농가 활성화에 기여</p>
                 </div>
               </div>
             </div>
@@ -56,9 +56,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">지위</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">이영준 성공기를 담은</p>
+                  <p className="p service__text p__color">넷플릭스 오리지널 시리즈</p>
+                  <p className="p service__text p__color">시청자 수 1위 달성</p>
                 </div>
               </div>
             </div>
@@ -74,9 +74,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">인성</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">폭행범 제압으로</p>
+                  <p className="p service__text p__color">서울시로부터</p>
+                  <p className="p service__text p__color">용감한 시민상 수여</p>
                 </div>
               </div>
             </div>
@@ -88,9 +88,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">건강</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">필라테스 강사</p>
+                  <p className="p service__text p__color">자격증 획득</p>
+                  <p className="p service__text p__color">피지컬갤러리 고정 멤버로 출연</p>
                 </div>
               </div>
             </div>
@@ -102,9 +102,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">꿈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">전세계의 어린이를 돌보며</p>
+                  <p className="p service__text p__color">전 재산을 환원하고</p>
+                  <p className="p service__text p__color">가난하게 죽는 것이 꿈</p>
                 </div>
               </div>
             </div>

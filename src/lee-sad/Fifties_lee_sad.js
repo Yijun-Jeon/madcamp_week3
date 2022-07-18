@@ -6,7 +6,7 @@ import Blog3 from '../img/prison_fight2.jpg';
 
 function Fifties_lee_sad() {
   return (
-    <div className='blog component__space' id='50s'>
+    <div className='blog component__space' id='fifties'>
         <div className="heading">
             <h1 className="heading">50대</h1>
             <p className="heading p__color">I didn't nothing</p>
