@@ -36,8 +36,6 @@ function Sixties_jeon_happy() {
     <div className='sixties_happy component__space' id="60s">
       <div className="heading">
             <h1 className="heading">60대</h1>
-            <p className="heading p__color">행복한 말년</p>
-            <p className="heading p__color">기나긴 평화</p>
         </div>
       <body className="sixties__body">
       <div className="earth__container"></div>

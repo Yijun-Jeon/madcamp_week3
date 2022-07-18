@@ -1,3 +1,5 @@
+
+
 .Blog__meta{
     width: 100%;
     height: 100%;
@@ -183,4 +185,8 @@ button.view__more:hover{
 
 .row.col{
     width:1;
+}
+
+#fifties{
+    background-color: #191919!important;
 }

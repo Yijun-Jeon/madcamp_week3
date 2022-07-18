@@ -6,7 +6,7 @@ import Blog3 from '../img/book.png';
 
 function Fifties_jeon_happy() {
   return (
-    <div className='blog component__space' id='50s'>
+    <div className='blog component__space' id='fifties'>
         <div className="heading">
             <h1 className="heading">50대</h1>
         </div>
