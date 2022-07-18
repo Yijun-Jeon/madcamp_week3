@@ -1,16 +1,16 @@
 import React from 'react';
 import '../css/Blog.css';
-import Blog1 from '../img/prison_jeon.png';
-import Blog2 from '../img/blog-02.jpg';
-import Blog3 from '../img/blog-03.jpg';
+import Blog2 from '../img/prison_jeon.png';
+import Blog1 from '../img/news_sad.PNG';
+import Blog3 from '../img/solo.jpg';
 
 function Fifties_jeon_sad() {
   return (
     <div className='blog component__space' id='50s'>
         <div className="heading">
             <h1 className="heading">50대</h1>
-            <p className="heading p__color">I didn't nothing</p>
-            <p className="heading p__color">I didn't nothing</p>
+            <p className="heading p__color">10년만에 출소하였으나</p>
+            <p className="heading p__color">전과와 늙은 나이로 인해 취업 불가능</p>
         </div>
         <div className="container">
             <div className="row">
@@ -23,9 +23,11 @@ function Fifties_jeon_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <h5 className="project__text"></h5>
+                            <h4 className="project__text"></h4>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open("https://m.hankookilbo.com/News/Read/A2022071811470005505")
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -39,9 +41,11 @@ function Fifties_jeon_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <h5 className="project__text"></h5>
+                            <h4 className="project__text"></h4>
+                            <a className="blog project__btn btn" onClick={()=>{
+                                window.open('https://www.123rf.com/photo_179582359_prisoner-with-mugshot-letter-board-at-police-department.html?vti=nklnzwkvfu0ethg3uy-1-5')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -55,9 +59,11 @@ function Fifties_jeon_sad() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="Blog__meta absolute">
-                            <h5 className="project__text">Development</h5>
-                            <h4 className="project__text">Apple Banana Candy Duck</h4>
-                            <a href="#" className="blog project__btn btn">Read More</a>
+                            <h5 className="project__text"></h5>
+                            <h4 className="project__text"></h4>
+                            <a href="#" className="blog project__btn btn" onClick={()=>{
+                                window.open('https://www.donga.com/news/View?gid=81046301&date=20161028')
+                            }}>Read More</a>
                         </div>
                     </div>
                 </div>

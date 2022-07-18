@@ -11,7 +11,7 @@ function Seventies_jeon_sad() {
                     <div className="contact__meta">
                         <h1 className="hire__text">Pray for Me.</h1>
                         <p className="hire__text white">조의금 계좌번호</p>
-                        <p className="hire__text white"><strong>352-0202-1234-49</strong></p>
+                        <p className="hire__text white"><strong>352-0237-7437-13</strong></p>
                     </div>
                     <div className="input__box">
                         <input type="text" className="contact name" placeholder='성함 *'/>
