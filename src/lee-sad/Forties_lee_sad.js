@@ -26,9 +26,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">돈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">몰입캠프 프로젝트로 출시된</p>
+                  <p className="p service__text p__color">주식투자 알고리즘 사용</p>
+                  <p className="p service__text p__color">전 재산 투자 후 탕진</p>
                 </div>
               </div>
             </div>
@@ -40,9 +40,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">사람</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">몰입캠프 20주년 기념</p>
+                  <p className="p service__text p__color">계룡산에 MT 개최</p>
+                  <p className="p service__text p__color">전이준 제외 전원 불참</p>
                 </div>
               </div>
             </div>
@@ -55,9 +55,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">지위</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">자녀들의 호칭</p>
+                  <p className="p service__text p__color">아빠가 아닌</p>
+                  <p className="p service__text p__color">영준쓰로 통일</p>
                 </div>
               </div>
             </div>
@@ -73,9 +73,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">인성</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">밥에 있는 콩 골라먹음</p>
+                  <p className="p service__text p__color">오락실 가고싶어</p>
+                  <p className="p service__text p__color">어머님께 5000원 요구</p>
                 </div>
               </div>
             </div>
@@ -87,9 +87,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">건강</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">이스포츠 제외</p>
+                  <p className="p service__text p__color">운동과 단절</p>
+                  <p className="p service__text p__color">BMI 최고치 달성</p>
                 </div>
               </div>
             </div>
@@ -101,9 +101,9 @@ function Forties_lee_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">꿈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">학교 점심시간에 </p>
+                  <p className="p service__text p__color">코다리강정 두번 받는 것이</p>
+                  <p className="p service__text p__color">유일한 꿈</p>
                 </div>
               </div>
             </div>

@@ -27,9 +27,9 @@ function Forties_lee_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">돈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">22년 몰입캠프 프로젝트로 출시된</p>
+                  <p className="p service__text p__color">주식투자 알고리즘을 통하여</p>
+                  <p className="p service__text p__color">전재산 투자 후 탕진</p>
                 </div>
               </div>
             </div>

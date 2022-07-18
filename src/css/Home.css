@@ -44,7 +44,7 @@ h1.home__text{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 3px;
-    color: rgba(198,201,216,.75)!important;
+    color: rgba(198,201,216,.75);
 }
 h2.home__text{
     font-size: 54px;

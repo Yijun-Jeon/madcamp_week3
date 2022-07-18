@@ -174,3 +174,11 @@ button.view__more:hover{
         text-align: center;
     }
 }
+
+.row{
+    display: flex;
+}
+
+.row.col{
+    width:1;
+}

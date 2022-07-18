@@ -10,12 +10,13 @@ function Stair_lee_sad() {
         </div>
 
     <div className="stair__background">
-      <div className="stair__explain">
-        <div className="explaining__par">
+      <div className="stair__explain__lee">
+        <div className="explaining__par__lee">
           <p style={{"margin-top" : "9%"}}>25세: 서울 중등 임용 1차 탈락</p>
-          <p> - 연휴 가족 모임 참여 금지</p>
           <p>35세: 10수 끝에 정보 입용 달성</p>
           <p> - 설 연휴 가족 모임 참여 재개</p>
+          <p>37세: 학교 축제에서 조광일 랩 선보이다 폭력적인 가사로 윤리위원회 회부</p>
+          <p>- 3년간 50% 감봉</p>
         </div>
       </div>
       <div className="stair">

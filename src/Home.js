@@ -142,10 +142,10 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">Welcome Kaist</h1>
-              <h2 className="home__text pz__10">Hi, i'm Jeon</h2>
-              <h3 className="home__text sweet pz__10">Baek Soo.</h3>
-              <h4 className="home__text pz__10">Hungry Now</h4>
+              <h1 className="home__text pz__10" style={happy? {color:'black'} : null}>Welcome Kaist</h1>
+              <h2 className="home__text pz__10" style={happy? {color:'black'} : null}>Jeon And Lee</h2>
+              <h3 className="home__text sweet pz__10">Life Story</h3>
+              <h4 className="home__text pz__10" style={happy? {color:'black'} : null}>{happy? 'Paradise Mode' : 'Hell Mode'}</h4>
             </div>
           </div>
         </div>
