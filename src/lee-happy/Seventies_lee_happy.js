@@ -9,7 +9,7 @@ function Seventies_lee_happy() {
             <div className="col__2">
                 <div className="contact__box">
                     <div className="contact__meta">
-                        <h1 className="hire__text">Contact Me.</h1>
+                        <h1 className="hire__text">Contact Me</h1>
                         <p className="hire__text white">도움과 조언이 필요하다면 서슴없이 연락주십시오.</p>
                         <p className="hire__text white"><strong>+010-2605-0841</strong> or github <strong>https://github.com/leeyjwinter</strong></p>
                     </div>

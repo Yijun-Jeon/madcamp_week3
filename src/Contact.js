@@ -9,7 +9,7 @@ function Contact() {
             <div className="col__2">
                 <div className="contact__box">
                     <div className="contact__meta">
-                        <h1 className="hire__text">Fire Me.</h1>
+                        <h1 className="hire__text">Fire Me</h1>
                         <p className="hire__text white">I am very useless person. Connet with me via phone:</p>
                         <p className="hire__text white"><strong>+123 45 6789</strong>or email<strong>gkqls813@gmail.com</strong></p>
                     </div>

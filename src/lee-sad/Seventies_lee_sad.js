@@ -9,7 +9,7 @@ function Seventies_lee_sad() {
             <div className="col__2">
                 <div className="contact__box">
                     <div className="contact__meta">
-                        <h1 className="hire__text">Pray for Me.</h1>
+                        <h1 className="hire__text">Pray for Me</h1>
                         <p className="hire__text white">조의금 계좌번호</p>
                         <p className="hire__text white"><strong>352-0202-1234-49</strong></p>
                     </div>

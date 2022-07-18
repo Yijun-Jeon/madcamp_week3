@@ -10,8 +10,7 @@ function Project() {
     <div className='project component__space' id='Portfolio'>
         <div className="heading">
             <h1 className="heading">My Latest Project</h1>
-            <p className="heading p__color">I didn't nothing</p>
-            <p className="heading p__color">I didn't nothing</p>
+
         </div>
         <div className="container">
             <div className="row">

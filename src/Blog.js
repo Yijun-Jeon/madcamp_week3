@@ -9,8 +9,6 @@ function Blog() {
     <div className='blog component__space' id='Blog'>
         <div className="heading">
             <h1 className="heading">Latest News</h1>
-            <p className="heading p__color">I didn't nothing</p>
-            <p className="heading p__color">I didn't nothing</p>
         </div>
         <div className="container">
             <div className="row">

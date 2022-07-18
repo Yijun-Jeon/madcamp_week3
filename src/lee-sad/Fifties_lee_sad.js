@@ -9,8 +9,6 @@ function Fifties_lee_sad() {
     <div className='blog component__space' id='fifties'>
         <div className="heading">
             <h1 className="heading">50대</h1>
-            <p className="heading p__color">I didn't nothing</p>
-            <p className="heading p__color">I didn't nothing</p>
         </div>
         <div className="container">
             <div className="row">

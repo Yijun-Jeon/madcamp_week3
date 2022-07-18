@@ -7,8 +7,6 @@ function Service() {
 
       <div className="heading">
         <h1 className="heading">My Awesome Service</h1>
-        <p className="heading p__color">I didn't nothing</p>
-        <p className="heading p__color">I didn't nothing</p>
       </div>
       
       <div className="container">
