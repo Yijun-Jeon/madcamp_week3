@@ -26,9 +26,9 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">돈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">생활고에 시달리다가</p>
+                  <p className="p service__text p__color">부장의 유혹을 이기지 못해</p>
+                  <p className="p service__text p__color">94억의 회사 자금 횡령</p>
                 </div>
               </div>
             </div>
@@ -40,9 +40,10 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">사람</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">5년째 가족과 연락 두절</p>
+                  <p className="p service__text p__color">20년지기 친구도 손절</p>
+                  <p className="p service__text p__color">유일한 인맥</p>
+                  <p className="p service__text p__color">- 동반 나락간 이영준</p>
                 </div>
               </div>
             </div>
@@ -55,9 +56,9 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">지위</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">횡령 1달만에 발각되어</p>
+                  <p className="p service__text p__color">부장과 같이 해고</p>
+                  <p className="p service__text p__color">기소되어 징역 10년 선고</p>
                 </div>
               </div>
             </div>
@@ -73,9 +74,9 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">인성</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">교도소 관심 수감자로 찍혀</p>
+                  <p className="p service__text p__color">징벌방 독방 사용</p>
+                  <p className="p service__text p__color">매 끼 항시 반찬 투정</p>
                 </div>
               </div>
             </div>
@@ -87,9 +88,9 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">건강</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">흡연 20년차 폐암 초기 증상</p>
+                  <p className="p service__text p__color">체지방률 45% 달성</p>
+                  <p className="p service__text p__color">인바디 점수 20점 달성</p>
                 </div>
               </div>
             </div>
@@ -101,9 +102,9 @@ function Forties_jeon_sad() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">꿈</h1>
-                  <p className="p service__text p__color">sleeping sleeping</p>
-                  <p className="p service__text p__color">eating eating</p>
-                  <p className="p service__text p__color">coding coding</p>
+                  <p className="p service__text p__color">매일 10시간 수면</p>
+                  <p className="p service__text p__color">가끔 가위 눌림</p>
+                  <p className="p service__text p__color">하루하루 생존이 목표</p>
                 </div>
               </div>
             </div>
