@@ -43,7 +43,7 @@ function Forties_lee_happy() {
                   <h1 className="service__text">사람</h1>
                   <p className="p service__text p__color">스승의 날마다 찾아오는</p>
                   <p className="p service__text p__color">전국의 학생들로 인하여</p>
-                  <p className="p service__text p__color">카네이션 농가 활성화에 기여</p>
+                  <p className="p service__text p__color">카네이션 농가 활성화 기여</p>
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ function Forties_lee_happy() {
                   <h1 className="service__text">건강</h1>
                   <p className="p service__text p__color">필라테스 강사</p>
                   <p className="p service__text p__color">자격증 획득</p>
-                  <p className="p service__text p__color">피지컬갤러리 고정 멤버로 출연</p>
+                  <p className="p service__text p__color">피지컬갤러리 고정 출연</p>
                 </div>
               </div>
             </div>
