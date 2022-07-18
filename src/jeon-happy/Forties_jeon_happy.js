@@ -29,7 +29,7 @@ function Forties_jeon_happy() {
                   <h1 className="service__text">돈</h1>
                   <p className="p service__text p__color">자산 48조 보유</p>
                   <p className="p service__text p__color">청담, 서초 자이 건물 인수</p>
-                  <p className="p service__text p__color">세계 부자 순위 24등 정착</p>
+                  <p className="p service__text p__color">세계 부자 순위 5등 정착</p>
                 </div>
               </div>
             </div>
@@ -41,9 +41,9 @@ function Forties_jeon_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">사람</h1>
-                  <p className="p service__text p__color">결혼해서 행복한 가정 달성</p>
-                  <p className="p service__text p__color">장병규 의장님과 의형제</p>
-                  <p className="p service__text p__color"></p>
+                  <p className="p service__text p__color">굉장한 가정을 꾸려</p>
+                  <p className="p service__text p__color">한국 결혼률 증가에 대폭 기여</p>
+                  <p className="p service__text p__color">장병규 의장님과 의형제 결의</p>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ function Forties_jeon_happy() {
                   <h1 className="service__text">인성</h1>
                   <p className="p service__text p__color">카이스트 몰입캠프 14억 후원</p>
                   <p className="p service__text p__color">아프리카 학교설립 적극 지원</p>
-                  <p className="p service__text p__color"></p>
+                  <p className="p service__text p__color">길가던 할머니 도움경력 400번</p>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ function Forties_jeon_happy() {
                 <div className="service__meta">
                   <h1 className="service__text">건강</h1>
                   <p className="p service__text p__color">보디빌더 준비중</p>
-                  <p className="p service__text p__color">40년간 장염 한 번 겪지 않음</p>
+                  <p className="p service__text p__color">40년간 코로나 한 번도 안걸림</p>
                   <p className="p service__text p__color">자식들을 위해 금연 성공</p>
                 </div>
               </div>
@@ -102,9 +102,9 @@ function Forties_jeon_happy() {
                 </div>
                 <div className="service__meta">
                   <h1 className="service__text">꿈</h1>
-                  <p className="p service__text p__color"></p>
-                  <p className="p service__text p__color"></p>
-                  <p className="p service__text p__color"></p>
+                  <p className="p service__text p__color">25살 아쉽게 포기했었던</p>
+                  <p className="p service__text p__color">몰입캠프 3주차 웹사이트</p>
+                  <p className="p service__text p__color">다시 도전해 보기</p>
                 </div>
               </div>
             </div>
