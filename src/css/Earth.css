@@ -110,7 +110,6 @@ body.sixties__body{
     left:5%;
     align-items: center;
     justify-content: center;
-    overflow: auto;
     word-break: break-all;
     padding: 1%;
 }
@@ -130,7 +129,6 @@ body.sixties__body{
     right:5%;
     align-items: center;
     justify-content: center;
-    overflow: auto;
     word-break: break-all;
     padding: 1%;
 }
