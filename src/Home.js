@@ -78,7 +78,7 @@ function Home() {
               <a href="#40s">
                 <li className="nav__items mx__15">40대</li>
               </a>
-              <a href="#50s">
+              <a href="#fifties">
                 <li className="nav__items mx__15">50대</li>
               </a>
               <a href="#60s">

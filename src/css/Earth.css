@@ -101,5 +101,48 @@ body.sixties__body{
 
     }
   }
+
+.earth__explaining__container{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top:8%;
+    left:5%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    word-break: break-all;
+    padding: 1%;
+}
+
+.jeon__move{
+    width: 100%;
+}
+
+.lee__move{
+    width: 100%;
+}
+.earth__explaining__container__right{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    top:8%;
+    right:5%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    word-break: break-all;
+    padding: 1%;
+}
+
+.earth__explain{
+    box-sizing: border-box;
+    font-family: '궁서';
+    color: #fff;
+    line-height: 200%;
+}
   
+.sign{
+    width:80%;
+}
 
