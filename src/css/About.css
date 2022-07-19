@@ -5,6 +5,10 @@ img.about__img{
     border-radius: 10px;
     width: 100%;
 }
+img.old__img{
+    border-radius: 10px;
+    width: 80%;
+}
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
@@ -70,4 +74,12 @@ a.bottom__to__top.active{
 .p__color{
     font-size: 15px!important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.six__color{
+    color: rgba(198,201,216,1);
+    font-size: 30px;
+    line-height: 35px;
+    font-family: 궁서,sans-serif;
+    margin-bottom: 40px;
 }

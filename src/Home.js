@@ -264,16 +264,7 @@ function Home() {
           <Sixties_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> : 
-      <BindKeyboardSwipeableViews enableMouseEvents>
-        <div style={Object.assign({})}>
-          {/* 60대 sad - Jeon */}
-          <Sixties_jeon_sad/>
-        </div>
-        <div style={Object.assign({})}>
-          {/* 60대 sad - Lee */}
-          <Sixties_lee_sad/>
-        </div>
-      </BindKeyboardSwipeableViews>}
+      <Sixties_jeon_sad/>}
 
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>
