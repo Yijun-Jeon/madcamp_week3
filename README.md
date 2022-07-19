@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/68576681/177258571-64e4855d-bdca-4335-b221-e23d54708cbe.jpg" width="30" height="30"> IFWE..
+# <img src="https://user-images.githubusercontent.com/68576681/177258571-64e4855d-bdca-4335-b221-e23d54708cbe.jpg" width="30" height="30"> IFFY
 > 2분반 3주차(2022.07.12~07.19) By 이영준, 전이준
 # Table Of Contents
 * [Project Summary](#project-summary)
