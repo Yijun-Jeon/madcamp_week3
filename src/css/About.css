@@ -7,8 +7,9 @@ img.about__img{
 }
 img.old__img{
     border-radius: 10px;
-    width: 80%;
-    margin-left: 6%;
+    width: 90%;
+    height: 30%;
+    margin-left: 3%;
 }
 h1.about__heading{
     margin-bottom: 10px;

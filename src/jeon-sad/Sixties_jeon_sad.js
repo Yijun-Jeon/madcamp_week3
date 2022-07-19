@@ -1,5 +1,5 @@
 import React from 'react'
-import oldboys from '../img/oldboys.jpg'
+import oldboys from '../img/oldboys_1.jpg'
 import "../css/About.css";
 
 function Sixties_jeon_sad() {
