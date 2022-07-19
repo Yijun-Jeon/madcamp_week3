@@ -167,7 +167,7 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10" style={happy? {color:'black'} : null}>Welcome Kaist</h1>
+              <h1 className="home__text pz__10" style={happy? {color:'black',fontSize:'25px'}: {fontSize:'25px'}}>Welcome Kaist</h1>
               <h2 className="home__text pz__10" style={happy? {color:'black'} : null}>Jeon And Lee</h2>
               <h3 className="home__text sweet pz__10">Life Story</h3>
               <h4 className="home__text pz__10" style={happy? {color:'black'} : null}>{happy? 'Paradise Mode' : 'Hell Mode'}</h4>

@@ -1,10 +1,10 @@
 import React from 'react'
-import oldboys from '../img/oldboys1.jpg'
+import oldboys from '../img/oldboys.jpg'
 import "../css/About.css";
 
 function Sixties_jeon_sad() {
   return (
-    <div className="about component__space" id="About">
+    <div className="about component__space" id="60s">
     <div className="container">
       <div className="row">
         <div className="col__2">

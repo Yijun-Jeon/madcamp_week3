@@ -50,6 +50,8 @@ p{
 }
 .mx__15{
   margin: 0px 15px;
+  font-size: 20px !important;
+  font-weight: 700;
   white-space:nowrap;
 }
 .px__30{
@@ -81,9 +83,9 @@ p{
   flex-direction: column;
 }
 .col__2 {
-  max-width: 50%;
+  max-width: 51%;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   justify-content: center;
   flex-direction: column;
 }
@@ -145,7 +147,7 @@ button.btn {
   margin: 0px 10px;
 }
 .p__color {
-  color: rgba(198,201,216,.75);
+  color: rgba(255,255,255,1);
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins,sans-serif;

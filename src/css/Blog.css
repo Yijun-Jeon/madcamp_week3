@@ -134,10 +134,9 @@ h5.project__text{
 }
 h4.project__text{
     font-weight: 700;
-    font-size: 22px;
-    font-family: Poppins, sans-serif;
+    font-size: 23.5px;
+    font-family: 궁서, sans-serif;
     padding-bottom: 20px;
-    font-family: '궁서';
 }
 a.project__btn{
     padding: 12px 35px;
