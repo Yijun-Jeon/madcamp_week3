@@ -65,23 +65,25 @@ function Home() {
   const [next, setNext] = useState(false);
 
   useEffect(()=>{
-    if(play && !next){
-      audio_if.pause();
-      audio_iffy.play();
-    }else if(play && next){
-      audio_iffy.pause();
-      audio_if.play();
-    }else{
-      audio_iffy.pause();
-      audio_if.pause();
+    if(happy){
+      if(play && !next){
+        audio_if.pause();
+        audio_iffy.play();
+      }else if(play && next){
+        audio_iffy.pause();
+        audio_if.play();
+      }else{
+        audio_iffy.pause();
+        audio_if.pause();
+      }
     }
   },[play,next])
 
   return (
     <div className="home" id="Home">
-      <div className={happy? 'home__bg' : 'home__bg__sad'}>
-        <div className={happy? 'home__img' : 'home__img__sad'} onClick={()=>{
+      <div className={happy? 'home__bg' : 'home__bg__sad'} onClick={()=>{
           setPlay(!play)}} onDoubleClick={()=>{setNext(!next)}}>
+        <div className={happy? 'home__img' : 'home__img__sad'} >
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <img src={happy? whiteLogo : logo} alt="" width={70}/>
@@ -165,7 +167,7 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10" style={happy? {color:'black'} : null}>Welcome Kaist</h1>
+              <h1 className="home__text pz__10" style={happy? {color:'black',fontSize:'25px'}: {fontSize:'25px'}}>Welcome Kaist</h1>
               <h2 className="home__text pz__10" style={happy? {color:'black'} : null}>Jeon And Lee</h2>
               <h3 className="home__text sweet pz__10">Life Story</h3>
               <h4 className="home__text pz__10" style={happy? {color:'black'} : null}>{happy? 'Paradise Mode' : 'Hell Mode'}</h4>
@@ -262,16 +264,7 @@ function Home() {
           <Sixties_lee_happy/>
         </div>
       </BindKeyboardSwipeableViews> : 
-      <BindKeyboardSwipeableViews enableMouseEvents>
-        <div style={Object.assign({})}>
-          {/* 60대 sad - Jeon */}
-          <Sixties_jeon_sad/>
-        </div>
-        <div style={Object.assign({})}>
-          {/* 60대 sad - Lee */}
-          <Sixties_lee_sad/>
-        </div>
-      </BindKeyboardSwipeableViews>}
+      <Sixties_jeon_sad/>}
 
       {happy ? 
       <BindKeyboardSwipeableViews enableMouseEvents>

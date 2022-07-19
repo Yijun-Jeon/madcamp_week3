@@ -5,12 +5,18 @@ img.about__img{
     border-radius: 10px;
     width: 100%;
 }
+img.old__img{
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 6%;
+}
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
     font-family: 궁서,sans-serif;
     font-size: 80px;
+    margin-top: 6%;
 }
 button.about.btn.pointer{
     text-transform: capitalize;
@@ -20,14 +26,15 @@ button.about.btn.pointer{
     transition: .4s ease;
 }
 .about__meta{
-    margin-top: 13%;
+    margin-top: 8%;
 }
 .about__button{
     padding: 20px 0px;
 }
 .p__text {
-    color: rgba(198,201,216,1);
-    font-size: 20px;
+    color: rgba(255,255,255,1);
+    font-size: 25px;
+    font-weight: bold;
     line-height: 35px;
     font-family: 궁서,sans-serif;
     margin-bottom: 25px;
@@ -70,4 +77,13 @@ a.bottom__to__top.active{
 .p__color{
     font-size: 15px!important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.six__color{
+    color: rgba(255,255,255,0.9);
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 궁서,sans-serif;
+    margin-top: 5%;
+    margin-bottom: 7%;
 }

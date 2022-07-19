@@ -15,6 +15,14 @@ p.hire__text{
     font-weight: 400;
     font-family: 궁서;
 }
+p.fire__text{
+    margin-top: 3%;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+    font-family: 궁서;
+}
 img.contact__img{
     margin-top: 3%;
     width: 100%;
@@ -35,7 +43,7 @@ input.contact{
     margin: 20px 0px;
     outline: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     letter-spacing: .1px;
     background: none;
     border: 2px solid hsla(0,0%,100%,.2);
@@ -48,7 +56,7 @@ textarea#message{
     width: 100%;
     line-height: 46px;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     letter-spacing: .1px;
     border: 2px solid hsla(0,0%,100%,.2) ;
     font-family: 궁서;

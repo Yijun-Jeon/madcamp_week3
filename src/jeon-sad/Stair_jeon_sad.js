@@ -10,7 +10,7 @@ function Stair_jeon_sad() {
         </div>
 
 <div className="stair__background">
-  <div className="stair__explain">
+  <div className="stair__explain__lee">
     <div className="explaining__par__lee">
     <p style={{"margin-top" : "2%"}}>26세: 팀플에도 재능이 없어 고독하게 CPA 준비</p>
     <p>32세: 통합 7수만에 CPA 합격</p>
