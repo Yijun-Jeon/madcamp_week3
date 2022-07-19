@@ -25,6 +25,7 @@ function Seventies_jeon_sad() {
                 </div>
             </div>
             <div className="col__2">
+                
                 <img src={contactImg} alt="" className="contact__img" />
             </div>
         </div>
