@@ -8,6 +8,8 @@
   * [0. Loading](#0-loading)
   * [1. Home](#1-home)
   * [2. Screens](#2-screens)
+* [References](#references)
+
 ***
 # Project Summary
 * 주전공이 경영학과, 컴퓨터교육과인 우리가 만약 개발자를 택하지 않았더라면?
@@ -55,3 +57,6 @@
 * SwipeableViews를 사용하여 스와이프를 통해 둘의 스토리를 확인.
 * CSS를 사용하여 동적인 이미지를 생성.
 * 아이폰 이모지를 사용하여 각자의 얼굴을 생성하고 기존 이미지들에 합성.
+
+### References
+* https://youtu.be/hGAaWhxUPfY
